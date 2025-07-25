@@ -1,0 +1,5 @@
+# Ignore all compiled object files
+*.o
+
+# Ignore the final executable
+Project
