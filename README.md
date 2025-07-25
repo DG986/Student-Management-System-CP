@@ -1,78 +1,55 @@
-\# C++ Student Information System
+# 🎓 Student Information System in C++
 
+![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B)
+![Build](https://img.shields.io/badge/Build-Make-CC2929?style=for-the-badge&logo=gnu-make)
 
+A robust, command-line application for managing student, course, and enrollment data. This project was built from scratch to demonstrate a strong understanding of **Object-Oriented Programming (OOP)**, data structures, and clean C++ project architecture.
 
-A comprehensive, command-line based Student Information System built in C++. This project was created to demonstrate core object-oriented programming (OOP) principles, data management in C++, and a clean, multi-file project structure.
+---
 
+## ✨ Core Features
 
+*   **Student Management:** Add and view student records with unique auto-incrementing IDs.
+*   **Course Management:** Create and view courses, complete with names and associated credit values.
+*   **Enrollment System:** Enroll students in multiple courses with robust validation to prevent duplicates or invalid entries.
+*   **Grading System:** Assign letter grades (A, B, C, D, F) to students for their specific course enrollments.
+*   **Automatic GPA Calculation:** Automatically calculates and displays a student's Grade Point Average on a 4.0 scale, correctly weighted by course credits.
 
-\## Features
+---
 
+## 💻 Tech Stack & Core Concepts
 
+*   **Language:** **C++**
+*   **Core Principles:** **Object-Oriented Programming** (Classes, Objects, Encapsulation)
+*   **Data Structures:** **Standard Template Library (STL)**, specifically `std::vector` for dynamic data storage.
+*   **Build System:** **GNU Make** with a custom `Makefile` for efficient, automated compilation.
+*   **File Organization:** Clean, multi-file architecture with **Header (`.h`)** and **Source (`.cpp`)** file separation for modularity and maintainability.
+*   **Version Control:** **Git** and **GitHub** for source code management.
 
-\*   \*\*Student Management:\*\* Add and view student records, each assigned a unique ID.
+---
 
-\*   \*\*Course Management:\*\* Create and view courses, complete with names and credit values.
+## 🚀 Getting Started
 
-\*   \*\*Enrollment System:\*\* Enroll students in multiple courses with validation to prevent duplicates or errors.
+Follow these steps to compile and run the project in a Linux-like environment (e.g., MINGW64, WSL, or any Linux distro).
 
-\*   \*\*Grading System:\*\* Assign letter grades (A, B, C, D, F) to students for their specific course enrollments.
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/DG986/Student-Management-System-CP.git
+    ```
 
-\*   \*\*Automatic GPA Calculation:\*\* Automatically calculates and displays a student's Grade Point Average based on a 4.0 scale, weighted by course credits.
+2.  **Navigate into the project directory:**
+    ```sh
+    cd Student-Management-System-CP
+    ```
 
+3.  **Compile the source code using the Makefile:**
+    ```sh
+    make
+    ```
 
+4.  **Run the application:**
+    ```sh
+    ./Project
+    ```
 
-\## Technical Skills Demonstrated
-
-
-
-\*   \*\*Language:\*\* C++
-
-\*   \*\*Core Concepts:\*\* Object-Oriented Programming (Classes, Objects, Encapsulation), Standard Template Library (STL `std::vector`), Header/Source file separation.
-
-\*   \*\*Development Tools:\*\* `g++` compiler and the `make` build automation system with a custom `Makefile`.
-
-\*   \*\*Version Control:\*\* Git for source code management.
-
-
-
-\## How to Compile and Run
-
-
-
-This project includes a `Makefile` for easy compilation in a Linux-like environment (such as MINGW64).
-
-
-
-1\.  \*\*Clone the repository:\*\*
-
-&nbsp;   ```sh
-
-&nbsp;   git clone https://github.com/DG986/Student-Management-System-CP.git
-
-&nbsp;   ```
-
-2\.  \*\*Navigate to the project directory:\*\*
-
-&nbsp;   ```sh
-
-&nbsp;   cd Student-Management-System-CP
-
-&nbsp;   ```
-
-3\.  \*\*Compile the project using make:\*\*
-
-&nbsp;   ```sh
-
-&nbsp;   make
-
-&nbsp;   ```
-
-4\.  \*\*Run the executable:\*\*
-
-&nbsp;   ```sh
-
-&nbsp;   ./Project
-
-&nbsp;   ```
-
+---
